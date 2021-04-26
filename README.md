@@ -10,7 +10,7 @@ Part 2
     - I was a little unsure of where to place various methods -  some tidying and refactoring would make this section better.  
     - I ran out of time for delete - currently, if the DogsAPI deletes items they will remain in the Eco Serv's DB.  I was thinking about comparing each /breed call data to what was in the DB and deleting any additional items.  However, this would lead to problems of it's own if users wanted to manipulated data directly.  
     - I have not used Redis before but have initialised it and sored the API data in it.  
-    - 
+    
 Park 3
     - I wasn't sure of exactly how to set up GraphQL so I used a plugin - Lighthouse.  It was relatively straightforward and all queries work.
 
